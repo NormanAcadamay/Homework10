@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.font{
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.counter {
+  display: flex;
+  align-items: baseline;
+  text-align: center;
+  padding: 1px;
+  background: rgb(233, 249, 255);
+  border: 1px solid rgb(214, 231, 224);
+  border-radius: 5px;
+}
+
+.suminfo {
+  text-align: center;
+  color: rgb(182, 186, 181);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.counter>* {
+  height: 100%;
+  margin: 10px;
+  font-size: 28px;
+}
+
+.counter button {
+  background-color: rgb(212, 216, 205);
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid rgb(209, 219, 215);
+  border-radius: 10px;
+}
+
+.suminfo button:hover {
+  background: rgb(206, 210, 207);
+  color: white;
+}
+
+.counter button:hover {
+  background: white;
+  color: rgb(160, 170, 165);
+}
+
+.suminfo button {
+  font-size: 15px;
+}
+
+.suminfo button {
+  background-color: white;
+  color: rgb(194, 196, 191);
+  padding: 5px 20px;
+  border: 1px solid rgb(169, 173, 168);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.counter h3 {
+  color: rgb(180, 183, 181);
+}
+
